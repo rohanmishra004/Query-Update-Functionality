@@ -1,0 +1,291 @@
+{
+  "CaseMsg": {
+    "Hdr": {
+      "@Dtm": "2023-05-25 10:08:30",
+      "@Id": "c86mNYCZ-yGjW-kQnw-K2Jz-rOm5e1123taZ",
+      "@TmOff": "+00:00",
+      "@Ver": "3.005",
+      "GI": {
+        "TID": [
+          { "@Src": "E2E", "@TID": "13878774-a066-42ad-930b-bfe32381a599" }
+        ]
+      },
+      "Sndr": { "@AppCd": "ECASE", "@AppVer": "1.0.0", "@AppNm": "ECASE" },
+      "Rcp": [
+        { "@AppCd": "GCCP", "@AppVer": "1.0.0", "@AppNm": "Customer Portal" }
+      ]
+    },
+    "Bd": {
+      "Case": [
+        {
+          "GI": { "@CorrId": "111111" },
+          "CaseId": "SIR0937500",
+          "TyCd": "I",
+          "Cust": [
+            {
+              "CustRolTyCd": ["SP"],
+              "Addr": {
+                "BsnPty": {
+                  "Indv": { "Nm": "AYHAM CHABAN" },
+                  "Orgn": { "Nm": "AYHAM CHABAN" }
+                }
+              }
+            },
+            {
+              "CustRolTyCd": ["RV"],
+              "Addr": {
+                "BsnPty": {
+                  "Indv": { "Nm": "Nizar Alnajar" },
+                  "Orgn": { "Nm": "NIZAR ALNAJAR" }
+                }
+              }
+            }
+          ],
+          "Cmt": [],
+          "Shp": [
+            {
+              "ShpKey": { "$": "5352588850" },
+              "ShpInfReqGrp": [
+                {
+                  "InfReqGrpDefId": "946b08d6-f18d-4cb6-a5f1-4888f1a5b646",
+                  "Nm": "PII",
+                  "ProcFc": { "ProcTy": "Import", "CtryCd": "QA" }
+                }
+              ],
+              "ShpInfReq": [
+                {
+                  "InfReqId": "a0eb8b79-f65d-4307-1b8e-8fbd17728fbf",
+                  "InfDefId": "99c156b4-2d99-4687-9a06-c09b4b137d2b",
+                  "InfDatEntRec": [
+                    {
+                      "@InfDatEntId": "cc33ec86-9745-427c-9e55-6f3057c1ce02",
+                      "InfDatEntRec": [
+                        {
+                          "@InfDatEntId": "b3df2998-236b-463d-8308-aa7ebfce4c85",
+                          "InfDatEntRec": [
+                            {
+                              "@InfDatEntId": "8073258d-b004-43b4-9235-5bab7ebf9585",
+                              "Att": [
+                                {
+                                  "@AttDefId": "31cc526c-1b77-4bbd-a9d9-fb1337ebdf6f",
+                                  "Val": ""
+                                },
+                                {
+                                  "@AttDefId": "79a60cdb-04fa-4aa1-9850-44fe3a6edd51",
+                                  "Val": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "Att": [
+                            {
+                              "@AttDefId": "729bd912-88e2-4bcd-98b2-a08a1045a6fa",
+                              "Val": "RV"
+                            }
+                          ]
+                        },
+                        {
+                          "@InfDatEntId": "74203a3c-2723-4839-8ace-61cb4f0d898f",
+                          "InfDatEntRec": [
+                            {
+                              "@InfDatEntId": "842bfc34-41b3-4529-bc83-256bec8d73d7",
+                              "Att": [
+                                {
+                                  "@AttDefId": "f89f4566-2e3f-4aa3-88c7-dfaa1648a2a4",
+                                  "Val": ""
+                                },
+                                {
+                                  "@AttDefId": "1965e90e-e2ea-4a88-8079-71c68b357b5d",
+                                  "Val": ""
+                                },
+                                {
+                                  "@AttDefId": "10f94242-96ef-4baf-878d-338783e85c10",
+                                  "Val": ""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "@InfDatEntId": "8d7c66ff-0ce5-4640-900e-75d6aa6de07a",
+                      "InfDatEntRec": [
+                        {
+                          "@InfDatEntId": "fa135756-d6f6-4407-a4a9-356735ca1687",
+                          "InfDatEntRec": [
+                            {
+                              "@InfDatEntId": "4dd648be-45b8-4d2e-a11b-bfd4a0ff0877",
+                              "Att": [
+                                {
+                                  "@AttDefId": "b75a2f5c-4c7a-4e41-be69-0050d7c8d921",
+                                  "Val": ""
+                                },
+                                {
+                                  "@AttDefId": "ae72c708-db96-4e6a-b48a-2d3d6c57e3af",
+                                  "Val": ""
+                                }
+                              ]
+                            }
+                          ],
+                          "Att": [
+                            {
+                              "@AttDefId": "8b757c11-229d-4de7-a8e8-3818db23d9d0",
+                              "Val": "RV"
+                            }
+                          ]
+                        },
+                        {
+                          "@InfDatEntId": "9b05f3ff-cb02-4353-8193-26f2778e2f57",
+                          "InfDatEntRec": [
+                            {
+                              "@InfDatEntId": "8484f37b-647f-4e7b-9772-518f2f333e9a",
+                              "Att": [
+                                {
+                                  "@AttDefId": "6d087864-aed3-4881-be2c-87f0f9ebfb85",
+                                  "Val": ""
+                                },
+                                {
+                                  "@AttDefId": "e46c4dcf-7860-4577-8306-7ddbc3b592d1",
+                                  "Val": ""
+                                },
+                                {
+                                  "@AttDefId": "b4abd219-742b-4213-a3e7-09287c05254a",
+                                  "Val": ""
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "NoOfOpnCase": 1
+                }
+              ],
+              "DatElGrp": [
+                {
+                  "@Cd": "Shp",
+                  "DatEl": [
+                    { "Cd": "ActvDtm", "Val": { "$": "2023-05-01T13:32:02" } },
+                    { "Cd": "ActvDtmOff", "Val": { "$": "+04:00" } },
+                    { "Cd": "OrgCtryCd", "Val": { "$": "AE" } },
+                    {
+                      "Cd": "OrgCtryNm",
+                      "Val": { "$": "UNITED ARAB EMIRATES" }
+                    },
+                    { "Cd": "DstCtryCd", "Val": { "$": "QA" } },
+                    { "Cd": "DstCtryNm", "Val": { "$": "QATAR" } },
+                    { "Cd": "DclNPcs", "Val": { "$": "1" } }
+                  ],
+                  "DatElGrp": [
+                    {
+                      "@Cd": "Dsc",
+                      "DatEl": [
+                        { "Cd": "Dsc", "Val": { "$": "sample emax crown" } },
+                        { "Cd": "Cd", "Val": { "$": "CNT" } }
+                      ]
+                    },
+                    {
+                      "@Cd": "MonAmt",
+                      "DatEl": [
+                        { "Cd": "TyCd", "Val": { "$": "SCUSV" } },
+                        { "Cd": "Amt", "Val": { "$": "20" } },
+                        { "Cd": "CurCd", "Val": { "$": "AED" } }
+                      ]
+                    },
+                    {
+                      "@Cd": "Meas",
+                      "DatEl": [
+                        { "Cd": "TyCd", "Val": { "$": "DEC" } },
+                        { "Cd": "Wgt", "Val": { "$": "1" } },
+                        { "Cd": "Uom", "Val": { "$": "KG" } }
+                      ]
+                    },
+                    {
+                      "@Cd": "ShpDoc",
+                      "DatEl": [{ "Cd": "DocTyCd", "Val": { "$": "HWB" } }],
+                      "DatElGrp": [
+                        {
+                          "@Cd": "Img",
+                          "DatEl": [
+                            {
+                              "Cd": "Loc",
+                              "Val": {
+                                "$": "https://globalimaging.dhl.com/GlobalImaging/svc/docSecure?docid=00000592-AC95F6F9-8BDD-44E8-9DEF-2BAC782FB32F-20230501&format=PDF&external=true"
+                              }
+                            },
+                            { "Cd": "ImgLocAppCd", "Val": { "$": "GIA" } }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "@Cd": "ShpDoc",
+                      "DatEl": [{ "Cd": "DocTyCd", "Val": { "$": "INV" } }],
+                      "DatElGrp": [
+                        {
+                          "@Cd": "Img",
+                          "DatEl": [
+                            {
+                              "Cd": "Loc",
+                              "Val": {
+                                "$": "https://globalimaging.dhl.com/GlobalImaging/svc/docSecure?docid=00000594-0E6902A9-C032-466C-A132-7188F970939D-20230501&format=PDF&external=true"
+                              }
+                            },
+                            { "Cd": "ImgLocAppCd", "Val": { "$": "GIA" } }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "Com": [
+            {
+              "CaseCustComId": "Cr72Vkb",
+              "CustPrtlHprLink": "www.dhl.com/cp/Cr72Vkb?CN=QA",
+              "St": [
+                {
+                  "StCd": {
+                    "$": "SUCSS",
+                    "@Dtm": "2023-05-01 23:47:32Z",
+                    "@TyCd": "1STNO"
+                  }
+                }
+              ]
+            }
+          ],
+          "St": [
+            {
+              "StCd": {
+                "$": "CUSCT",
+                "@Dtm": "2023-05-01 23:47:39Z",
+                "@TyCd": "OPS"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "RespStatus": [
+      {
+        "GI": { "@CorrId": "111111" },
+        "Sev": 10,
+        "MsgCIgd": "100000",
+        "MsgClg": "ECASE",
+        "Dsc": "Service operation execution finished successfully",
+        "DtlDsc": "Service operation execution finished successfully",
+        "RespObj": [{ "@TotRspnRecs": 1 }]
+      },
+      {
+        "Sev": 10,
+        "MsgCIgd": "100000",
+        "MsgClg": "ECASE",
+        "Dsc": "Success"
+      }
+    ]
+}
+}

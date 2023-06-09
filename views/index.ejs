@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>Select File</title>
+</head>
+
+<body>
+    <h1>Select a File</h1>
+    <form action="/submit" method="POST">
+        <select name="selectedFile">
+            <% files.forEach(function(file) { %>
+            <option value="<%= file %>"><%= file %></option>
+            <% }); %>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <%= selectedFile %>
+
+    <form action="/att" , method="post">
+        <input type="hidden" name="selectedFile" value="<%= selectedFile %>">
+        <button type="submit">Generate AttDefId</button>
+    </form>
+
+    <br>
+    <br>
+    <form action="/attDefId" method="POST">
+        <select name="attDefId">
+            <% result.forEach(function(res) { %>
+            <option value="<%= res %>"><%= res %></option>
+            <% }); %>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <%= attDefId%>
+
+
+</body>
+
+</html>
