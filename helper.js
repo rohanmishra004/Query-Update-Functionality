@@ -1,5 +1,5 @@
-{
-    "CaseMsg": {
+const json = {
+  "CaseMsg": {
     "Bd": {
       "Case": [
         {
@@ -57,5 +57,38 @@
         }
       ]
     }
+  }
+};
+
+function extractInfDatEntId(json, attDefId) {
+  let result = null;
+
+  function findInfDatEntId(obj) {
+    if (Array.isArray(obj)) {
+      for (let i = 0; i < obj.length; i++) {
+        findInfDatEntId(obj[i]);
+      }
+    } else if (typeof obj === 'object' && obj !== null) {
+      if (obj.hasOwnProperty('@InfDatEntId') && obj.hasOwnProperty('InfDatEntRec')) {
+        const rec = obj.InfDatEntRec[0];
+        if (rec.hasOwnProperty('@InfDatEntId') && rec.hasOwnProperty('Att')) {
+          const att = rec.Att[0];
+          if (att.hasOwnProperty('@AttDefId') && att['@AttDefId'] === attDefId) {
+            result = rec['@InfDatEntId'];
+            return;
+          }
+        }
+      }
+      for (let key in obj) {
+        findInfDatEntId(obj[key]);
+      }
+    }
+  }
+
+  findInfDatEntId(json);
+  return result;
 }
-}
+
+const attDefId = 'ae72c708-db96-4e6a-b48a-2d3d6c57e3af';
+const infDatEntId = extractInfDatEntId(json, attDefId);
+console.log(infDatEntId); // Output: 4dd648be-45b8-4d2e-a11b-bfd4a0ff0877
